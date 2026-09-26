@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpapercave.com/wp/wp1913286.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .red-text {
+            color: rgb(9, 148, 235);
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .blue-text {
+            color: rgba(0, 255, 191, 0.86);
+        }
+
+        table {
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #03f8c3;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #fafafa;
+            padding: 10px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #031aec;
+            color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #0eeaba;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="red-text">Student Details</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>20</td>
+            <td>Chennai</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>21</td>
+            <td>Madurai</td>
+        </tr>
+        <tr>
+            <td>Vijay</td>
+            <td>22</td>
+            <td>Coimbatore</td>
+        </tr>
+        <tr>
+            <td>Divya</td>
+            <td>23</td>
+            <td>Trichy</td>
+        </tr>
+        <tr>
+            <td>Ramesh</td>
+            <td>24</td>
+            <td>Salem</td>
+        </tr>
+    </table>
+</body>
+</html>
